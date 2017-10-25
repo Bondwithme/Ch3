@@ -8,7 +8,10 @@ public class starProgram
     Scanner scan = new Scanner(System.in);
     inputStars = scan.nextInt();
     for(int i = 0; i<inputStars; i++) {
+        for(int b = 0; b < i; b++) {
         System.out.print("*");
+       }
+       System.out.println();
     }
    }
 }
